@@ -1,0 +1,51 @@
+#main-navigation {
+  position: fixed;
+  display: flex;
+  color: #fff;
+  justify-content: space-between;
+  width: calc(100% - 18px); 
+  top: 0;
+  padding: 18px;
+  background-color: rgba(255,255,255,0);
+  z-index: 999;
+  transition: all 0.4s ease;
+}
+#main-navigation:hover {
+  background-color: rgba(255,255,255,1);
+  color: #000;
+}
+#main-navigation:hover a {
+  color: #000;
+}
+#main-navigation a {
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.4s ease;
+}
+#main-navigation > div {
+  flex: 1;
+}
+#main-navigation > #PrimaryNav {
+  flex: 7;
+}
+#main-navigation .logo {
+  height: 36px;
+  background-image: url('../../assets/logo_white.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#main-navigation .search img {
+  display: inline;
+  height: 1.25em;
+  line-height: 1.5em;
+  background-image: url('../../assets/logo_white.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  transition: all 0.3s ease;
+}
+#main-navigation .search img:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
