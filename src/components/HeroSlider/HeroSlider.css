@@ -1,0 +1,19 @@
+.hero-slider div {
+  height: 40vh;
+}
+.slick-slide div div {
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hero-slider div#one {
+  background-image: url('../../assets/HOMEPAGE_SLIDER_IMAGE.jpg');
+}
+.hero-slider div#two {
+  background-image: url('../../assets/HOMEPAGE_SLIDER_IMAGE_FLIPPED.jpg');
+}
+@media( min-width: 768px ) {
+  .hero-slider div {
+    height: 100vh;
+  }
+}
