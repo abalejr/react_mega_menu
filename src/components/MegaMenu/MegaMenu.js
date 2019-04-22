@@ -8,7 +8,7 @@ class MegaMenu extends Component {
         <div className="logo"></div>
         <div id="PrimaryNav"></div>
         <div className="account"><a href="#" >Sign In</a></div>
-        <div className="search"><img src={require('../../assets/icon_search.svg')} alt="search" /></div>
+        <div className="search"></div>
         <div className="cart"><a href="#" >Bag (0)</a></div>
       </header>
     );
