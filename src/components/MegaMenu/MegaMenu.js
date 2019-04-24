@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './MegaMenu.css';
+import PrimaryNav from '../PrimaryNav/PrimaryNav';
 
 class MegaMenu extends Component {
   render() {
@@ -7,7 +8,7 @@ class MegaMenu extends Component {
       <header id="main-navigation">
         <div className="hamburger-menu"></div>
         <div className="logo"></div>
-        <div id="PrimaryNav"></div>
+        <PrimaryNav />
         <div className="header-tools">
           <div className="account"><a href="#" >Sign In</a></div>
           <div className="search"></div>
