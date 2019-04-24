@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './MenuItem.css';
 
 class MenuItem extends Component {
   constructor(props) {
@@ -7,8 +8,8 @@ class MenuItem extends Component {
   render() {
     if ( this.props.hasDropdown ) {
       return (
-        <div className="menu-item has-dropdown">
-          <a href={ this.props.link } >{ this.props.name }</a>
+        <a className="menu-item has-dropdown" href={ this.props.link } >
+          { this.props.name }
           <div className="menu-dropdown">
             <div className="menu-subcategory-section">
               {this.props.subcategories.map(function( subcategory, i ) {
@@ -32,13 +33,11 @@ class MenuItem extends Component {
               );
             })}
           </div>
-        </div>
+        </a>
       );
     } else {
       return (
-        <div className="menu-item">
-          <a href={ this.props.link } >{ this.props.name }</a>
-        </div>
+        <a className="menu-item" href={ this.props.link } >{ this.props.name }</a>
       );
     }
   }

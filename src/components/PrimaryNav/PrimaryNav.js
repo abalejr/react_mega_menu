@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import MenuItem from '../MenuItem/MenuItem';
+import './PrimaryNav.css';
 
 const menuItemList = [
   {
