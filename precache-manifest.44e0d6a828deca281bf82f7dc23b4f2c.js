@@ -1,23 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "03d94706090a89b540a32879662a846f",
-    "url": "/react_mega_menu/static/media/shopping-bag.03d94706.svg"
+    "revision": "180cdf1eaa54e9a9f2d4",
+    "url": "/react_mega_menu/static/css/main.9eafffbc.chunk.css"
   },
   {
-    "revision": "70c1f40fa03ffe9642a4",
-    "url": "/react_mega_menu/static/css/main.3b8fe05c.chunk.css"
+    "revision": "180cdf1eaa54e9a9f2d4",
+    "url": "/react_mega_menu/static/js/main.616022b1.chunk.js"
   },
   {
     "revision": "7dabac8c4240a790fc53",
     "url": "/react_mega_menu/static/js/runtime~main.b2716502.js"
   },
   {
-    "revision": "38d4c44bb49f7161d5af",
-    "url": "/react_mega_menu/static/js/2.da91ab15.chunk.js"
-  },
-  {
-    "revision": "5d5d9eefa31e5e13a6610d9fa7a283bb",
-    "url": "/react_mega_menu/static/media/logo.5d5d9eef.svg"
+    "revision": "070a4fe9acddc004aeb7",
+    "url": "/react_mega_menu/static/js/2.801bf750.chunk.js"
   },
   {
     "revision": "666aacb1c9e21a743f60bb612ccd6e11",
@@ -28,20 +24,20 @@ self.__precacheManifest = [
     "url": "/react_mega_menu/static/media/HOMEPAGE_SLIDER_IMAGE.88f4473e.jpg"
   },
   {
-    "revision": "c994067084aaefaed051f901437261c4",
-    "url": "/react_mega_menu/static/media/menu.c9940670.svg"
-  },
-  {
     "revision": "527335005ec9719022869176a1cace6a",
     "url": "/react_mega_menu/static/media/icon_search.52733500.svg"
+  },
+  {
+    "revision": "c994067084aaefaed051f901437261c4",
+    "url": "/react_mega_menu/static/media/menu.c9940670.svg"
   },
   {
     "revision": "4b7620c7f6a73f7fe3d6dc88065f8b9f",
     "url": "/react_mega_menu/static/media/profile.4b7620c7.svg"
   },
   {
-    "revision": "70c1f40fa03ffe9642a4",
-    "url": "/react_mega_menu/static/js/main.141b84ec.chunk.js"
+    "revision": "03d94706090a89b540a32879662a846f",
+    "url": "/react_mega_menu/static/media/shopping-bag.03d94706.svg"
   },
   {
     "revision": "c0bb1919d7a9aa8177da55f846db1495",
@@ -76,7 +72,11 @@ self.__precacheManifest = [
     "url": "/react_mega_menu/static/media/product_image_4.67d42433.jpg"
   },
   {
-    "revision": "246c64201c0204e53cae3606e1b74273",
+    "revision": "c4c396d3afb908f878b4835a616ba1af",
+    "url": "/react_mega_menu/static/media/close.c4c396d3.svg"
+  },
+  {
+    "revision": "6613636ca38b79dfa27510dbf2bf73ad",
     "url": "/react_mega_menu/index.html"
   }
 ];
