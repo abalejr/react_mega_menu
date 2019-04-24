@@ -3,9 +3,6 @@ import MenuDropdown from '../MenuDropdown/MenuDropdown';
 import './MenuItem.css';
 
 class MenuItem extends Component {
-  constructor(props) {
-    super(props);
-  }
   render() {
     if ( this.props.hasDropdown ) {
       return (

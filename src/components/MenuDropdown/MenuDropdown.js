@@ -2,9 +2,6 @@ import React, { Component } from 'react';
 import './MenuDropdown.css';
 
 class MenuDropdown extends Component {
-  constructor(props) {
-    super(props);
-  }
   render() {
     return (
       <div className="menu-dropdown">
@@ -21,7 +18,7 @@ class MenuDropdown extends Component {
           return (
             <div className="menu-featured-wrap" key={ i } >
               <a className="menu-featured-link" href={ featuredImage.link } >
-                <img className="menu-featured-img" src={ featuredImage.img } />
+                <img className="menu-featured-img" src={ featuredImage.img } alt="" />
                 <p className="menu-featured-label">
                   { featuredImage.label }
                 </p>
