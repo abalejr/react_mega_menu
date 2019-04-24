@@ -1,10 +1,10 @@
 self.__precacheManifest = [
   {
-    "revision": "180cdf1eaa54e9a9f2d4",
-    "url": "/react_mega_menu/static/css/main.9eafffbc.chunk.css"
+    "revision": "9d635f63933d62a73061",
+    "url": "/react_mega_menu/static/css/main.77de12bb.chunk.css"
   },
   {
-    "revision": "180cdf1eaa54e9a9f2d4",
+    "revision": "9d635f63933d62a73061",
     "url": "/react_mega_menu/static/js/main.616022b1.chunk.js"
   },
   {
@@ -28,20 +28,20 @@ self.__precacheManifest = [
     "url": "/react_mega_menu/static/media/icon_search.52733500.svg"
   },
   {
-    "revision": "c994067084aaefaed051f901437261c4",
-    "url": "/react_mega_menu/static/media/menu.c9940670.svg"
+    "revision": "03d94706090a89b540a32879662a846f",
+    "url": "/react_mega_menu/static/media/shopping-bag.03d94706.svg"
   },
   {
     "revision": "4b7620c7f6a73f7fe3d6dc88065f8b9f",
     "url": "/react_mega_menu/static/media/profile.4b7620c7.svg"
   },
   {
-    "revision": "03d94706090a89b540a32879662a846f",
-    "url": "/react_mega_menu/static/media/shopping-bag.03d94706.svg"
-  },
-  {
     "revision": "c0bb1919d7a9aa8177da55f846db1495",
     "url": "/react_mega_menu/static/media/icon_search_white.c0bb1919.svg"
+  },
+  {
+    "revision": "c994067084aaefaed051f901437261c4",
+    "url": "/react_mega_menu/static/media/menu.c9940670.svg"
   },
   {
     "revision": "8386e2f2c058b2abef4852a3d73c9b4e",
@@ -76,7 +76,7 @@ self.__precacheManifest = [
     "url": "/react_mega_menu/static/media/close.c4c396d3.svg"
   },
   {
-    "revision": "6613636ca38b79dfa27510dbf2bf73ad",
+    "revision": "1c00c3ab43552ef6085ad5ffb7deb337",
     "url": "/react_mega_menu/index.html"
   }
 ];
