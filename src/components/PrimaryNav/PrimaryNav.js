@@ -65,12 +65,12 @@ const menuItemList = [
     ],
     featuredImages: [
       {
-        img: require('../../assets/product_image.jpg'),
+        img: require('../../assets/product_image_1.jpg'),
         label: 'Shop: Basic Tees',
         link: 'https://abalejr.github.io/react_mega_menu/basic_tees'
       },
       {
-        img: require('../../assets/product_image_1.jpg'),
+        img: require('../../assets/product_image.jpg'),
         label: 'Shop: Best-selling Tops',
         link: 'https://abalejr.github.io/react_mega_menu/best_selling_tops'
       },

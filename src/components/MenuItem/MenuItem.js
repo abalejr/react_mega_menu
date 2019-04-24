@@ -8,8 +8,10 @@ class MenuItem extends Component {
   render() {
     if ( this.props.hasDropdown ) {
       return (
-        <a className="menu-item has-dropdown" href={ this.props.link } >
-          { this.props.name }
+        <div className="menu-item-wrap">
+          <a className="menu-item has-dropdown" href={ this.props.link } >
+            <span>{ this.props.name }</span>
+          </a>
           <div className="menu-dropdown">
             <div className="menu-subcategory-section">
               {this.props.subcategories.map(function( subcategory, i ) {
@@ -33,11 +35,13 @@ class MenuItem extends Component {
               );
             })}
           </div>
-        </a>
+        </div>
       );
     } else {
       return (
-        <a className="menu-item" href={ this.props.link } >{ this.props.name }</a>
+        <a className="menu-item" href={ this.props.link } >
+          <span>{ this.props.name }</span>
+        </a>
       );
     }
   }
