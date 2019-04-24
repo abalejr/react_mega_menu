@@ -18,6 +18,7 @@ figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video,
 button, input, optgroup, select, textarea {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
     border: 0;
@@ -97,8 +98,4 @@ table {
 .flex {
     display: flex;
     flex: 0 1 auto;
-}
-.flex.col {
-    flex-direction: column;
-
 }
