@@ -57,6 +57,10 @@ const menuItemList = [
       {
         label: 'Sweaters',
         link: 'https://abalejr.github.io/react_mega_menu/sweaters'
+      },
+      {
+        label: 'All',
+        link: 'https://abalejr.github.io/react_mega_menu/clothing'
       }
     ],
     featuredImages: [
@@ -111,7 +115,21 @@ const menuItemList = [
         link: 'https://abalejr.github.io/react_mega_menu/trend_knit_swimwear'
       }
     ],
-    link: 'https://abalejr.github.io/react_mega_menu/new_arrivals'
+    link: 'https://abalejr.github.io/react_mega_menu/swimwear'
+  },
+  {
+    name: 'Shoes',
+    hasDropdown: false,
+    subcategories: [],
+    featuredImages: [],
+    link: 'https://abalejr.github.io/react_mega_menu/shoes'
+  },
+  {
+    name: 'Sale',
+    hasDropdown: false,
+    subcategories: [],
+    featuredImages: [],
+    link: 'https://abalejr.github.io/react_mega_menu/sale'
   }
 ]
 
