@@ -115,25 +115,21 @@ const menuItemList = [
 ]
 
 class PrimaryNav extends Component {
-  generateMenuItems = (menuItemList) => {
-    for (var i = 0, max = menuItemList.length; i < max; i++ ) {
-      let menuItem = menuItemList[i];
-      return (
-        <MenuItem
-          name={ menuItem.name }
-          hasDropdown={ menuItem.hasDropdown }
-          subcategories={ menuItem.subcategories }
-          featuredImages={ menuItem.featuredImages }
-          link={ menuItem.link }
-          key={ i }
-        />
-      );
-    }
-  }
   render() {
     return (
       <div id="PrimaryNav" className="primary-nav">
-        {this.generateMenuItems(menuItemList)}
+        {menuItemList.map(function( menuItem, i ) {
+          return (
+            <MenuItem
+              name={ menuItem.name }
+              hasDropdown={ menuItem.hasDropdown }
+              subcategories={ menuItem.subcategories }
+              featuredImages={ menuItem.featuredImages }
+              link={ menuItem.link }
+              key={ i }
+            />
+          );
+        })}
       </div>
     );
   }
