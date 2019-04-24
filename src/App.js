@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
+import './reset.css';
 import './App.css';
 import HeroSlider from './components/HeroSlider/HeroSlider';
 import MegaMenu from './components/MegaMenu/MegaMenu';
