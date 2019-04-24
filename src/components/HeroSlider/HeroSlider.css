@@ -2,7 +2,7 @@
   z-index: 75;
 }
 .hero-slider div {
-  height: 100vh;
+  height: calc(100vh - 4em);
 }
 .slick-slide div div {
   background-position: top center;
@@ -14,4 +14,9 @@
 }
 .hero-slider div#two {
   background-image: url('../../assets/HOMEPAGE_SLIDER_IMAGE_FLIPPED.jpg');
+}
+@media(min-width: 911px) {
+  .hero-slider div {
+    height: 100vh;
+  }
 }
